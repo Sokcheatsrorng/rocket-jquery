@@ -1,0 +1,27 @@
+
+#rocket-container {
+    position: relative;
+  }
+  
+  #rocket {
+    width: 130px;
+    height: 500px;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    transform: translateX(-50%);
+    transition: transform 1s;
+  }
+  body{
+    background-image:url("../img/space.gif") ;
+    background-size: cover;
+  }
+
+
+  .spiningRocket{
+    animation: spinning 1s linear infinite;
+  }
+  @keyframes spinning{
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(360deg)}
+  }

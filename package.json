@@ -1,0 +1,16 @@
+{
+  "name": "rocket-project",
+  "version": "1.0.0",
+  "description": "rocket using jquery",
+  "main": "index.js",
+  "scripts": {
+    "test": "hello",
+    "start":"npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "keywords": [
+    "rocket",
+    "jquery"
+  ],
+  "author": "",
+  "license": "ISC"
+}
